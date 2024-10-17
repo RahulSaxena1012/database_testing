@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Behave",
+            "type": "python",
+            "request": "launch",
+            "program": "C:/Users/rahul/AppData/Local/Programs/Python/Python313/end_to_end_venv/Scripts/behave.exe",  // Update this if you're using a different path for Behave
+            "args": ["--no-capture"],  // Optional: Add any other arguments you need for Behave
+            "console": "integratedTerminal",
+            "justMyCode": false
+        }
+    ]
+}
