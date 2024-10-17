@@ -13,7 +13,7 @@ def step_impl(context, table_name):
     result = context.connection.execute(query)
     context.users = result.fetchall()
 
-@then('I should see following users')
+@then('I should see the following users')
 def step_impl(context):
     expected_users = [tuple(row.cells) for row in context.table]
     actual_users = [(row[0], row[1]) for row in context.users]
